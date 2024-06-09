@@ -8,13 +8,13 @@ function Header() {
         <header className={styles.header}>
 
             <Link to="/">
-                <span>fernandoArruda.dev</span>
+                <span>Music Technology</span>
             </Link>
 
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/sobre">Sobre</Link>
-                <Link to="/projetos">Projetos</Link>
+                <Link to="/servicos">Serviços</Link>
                 <Link to="/contatos">Contatos</Link>
 
             </nav>

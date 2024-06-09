@@ -1,11 +1,12 @@
 import styles from './Sobre.module.css'
-import html from './imagens/icon-html.svg'
-import css from './imagens/icon-css.svg'
-import js from './imagens/icon-js.svg'
-import node from './imagens/icon-node.svg'
-import react from './imagens/icon-react.svg'
-import sql from './imagens/icon-sql.svg'
-import avatar from './imagens/avatar.jpg'
+import gibson from './imagens/gibson.png'
+import fender from './imagens/fender.png'
+import marshall from './imagens/marshall.jpg'
+import vox from './imagens/vox.png'
+import wampler from './imagens/wampler.gif'
+import strymon from './imagens/strymon.gif'
+import martin from './imagens/martin.png'
+import avatar from './imagens/avatar.jfif'
 
 
 function Sobre() {
@@ -18,32 +19,33 @@ function Sobre() {
           
             
                 <h2>Sobre</h2>
-                <p>Sou
-                    <span> Fernando Arruda </span>
-                    <strong>Desenvolvedor Full Stack</strong>
+                <p>A
+                    <span> Music Technology </span>
+                    <strong>Música e Tecnologia</strong>
                 </p>
                 <p>
-                    Trabalho com desenvolvimento web desde 2024.
+                    É uma empresa com focada no atendimento das necessidades de guitarristas e violonistas, especializada em guitarras, violões, amplificadores e efeitos em geral.
                 </p>
                 <p>
-                    Sou um grande entusiasta de soluções tecnológicas para problemas do dia a dia, apaixonado por tecnologia.
+                    Somos grande entusiastas de soluções tecnológicas para problemas do dia a dia dos músicos, apaixonado por timbres e possibilidades diferentes para resolver problemas comuns.
                 </p>
                 <p>
-                    Pronto para realizar criações de aplicações dinâmicas e intuitivas.
+                    Estamos prontos para solucionar problemas e criar soluções úteis de forma dinâmica e acertiva.
                 </p>
             
             </div>
             </div>
             <div className={styles.techs}>
-                <h3> Techs</h3>
+                
             </div>
             <div className={styles.icones}>
-                <img src={html} alt = 'Ícone do html'/>
-                <img src={css} alt = 'Ícone do css'/> 
-                <img src={js} alt = 'Ícone do js'/>
-                <img src={node} alt = 'Ícone do node'/>
-                <img src={react} alt = 'Ícone do react'/>
-                <img src={sql} alt = 'Ícone do sql'/>
+                <img src={gibson} alt = 'logo da Gibson'/>
+                <img src={fender} alt = 'logo da Fender'/>
+                <img src={marshall} alt = 'logo da Marshall'/>
+                <img src={vox} alt = 'logo da Vox'/>
+                <img src={wampler} alt = 'logo da Wampler'/>
+                <img src={strymon} alt = 'Logo da Strymon'/>
+                <img src={martin} alt = 'Logo da Martin'/>
             
             </div>
 

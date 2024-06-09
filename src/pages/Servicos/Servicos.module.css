@@ -1,9 +1,15 @@
+/* pages/Servicos/Servicos.module.css */
+.projetos {
+    padding: 20px;
+    background-color: white;
+}
+
 .projetos h2{
     text-align: center;
     
 }
 
-.lista{
+.servicos{
     width: 100%;
     display: flex;
     align-items: center;

@@ -6,10 +6,10 @@ function Page404() {
         <>
            
             <Container>
-                <h2 className={styles.titulo2}>Algo de errado não está certo!</h2>
+                <h2 className={styles.titulo2}>A página que você tentou acessar não existe.</h2>
                 <div className={styles.textos}>
                     <span className={styles.texto_grande}>404</span> <br />
-                    <strong className={styles.texto_vermelho}>Página Não Localizada!</strong> //strong tag de destaque 
+                    <strong className={styles.texto_vermelho}>Página Não Localizada!</strong>
                 </div>
             </Container>
            
