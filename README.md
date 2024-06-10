@@ -34,3 +34,13 @@ O projeto foi desenvolvido pelo seguinte aluno do SENAI:
 - **Sobre**: Apresentação da empresa.
 - **Serviços**: Apresentação em cards dos serviços da empresa.
 - **Contato**: Página de contato da empresa, aqui é exibido um formulário que após preenchido e enviado é encaminhado para um e-mail oficial.
+
+## Como Executar
+
+1. Clone este repositório em sua máquina local.
+2. Abra o repositório no Visual Studio Code.
+3. Execute a aplicação.
+
+```bash
+cd projeto-final
+npm run dev
