@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import emailjs from 'emailjs-com';
-import './Contato.module.css'; // Importe seu arquivo CSS com as definições de estilo
+import './Contato.module.css';
 
 function Contato() {
   const [formData, setFormData] = useState({
