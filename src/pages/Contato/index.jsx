@@ -120,7 +120,7 @@ function Contato() {
 
   return (
     <div className="main-container">
-      <div className='atendimento-form'>
+      <div className="atendimento-form">
         <h1>Contato</h1>
         <br/>
         <p>Conheça nosso estúdio ou receba nossa visita.</p>
@@ -131,89 +131,117 @@ function Contato() {
           <div className='form-container'>
             <label>
               Nome:
+              <br/>
               <input type="text" name="nome" value={formData.nome} onChange={handleChange} required />
             </label>
           </div>
+          <br/>
           <div className='form-container'>
             <label>
               Motivo do Contato:
+              <br/>
               <input type="text" name="motivo" value={formData.motivo} onChange={handleChange} required />
             </label>
           </div>
+          <br/>
           <div className='form-container'>
             <label>
               CEP:
+              <br/>
               <input type="text" name="cep" value={formData.cep} onChange={handleChange} required />
             </label>
+            <br/>
             <button type="button" onClick={handleConsultaCep}>Consultar CEP</button>
           </div>
+          <br/>
           <div className='form-container'>
             <label>
               Número:
+              <br/>
               <input type="text" name="numero" value={formData.numero} onChange={handleChange} required />
             </label>
           </div>
+          <br/>
           <div className='form-container'>
             <label>
               Complemento:
+              <br/>
               <input type="text" name="complemento" value={formData.complemento} onChange={handleChange} />
             </label>
           </div>
+          <br/>
           {formData.logradouro && (
             <div className='form-row'>
               <div className='form-container'>
                 <label>
                   Logradouro:
+                  <br/>
                   <input type="text" name="logradouro" value={formData.logradouro} onChange={handleChange} />
                 </label>
               </div>
+              <br/>
               <div className='form-container'>
                 <label>
                   Bairro:
+                  <br/>
                   <input type="text" name="bairro" value={formData.bairro} onChange={handleChange} />
                 </label>
               </div>
+              <br/>
               <div className='form-container'>
                 <label>
                   Cidade:
+                  <br/>
                   <input type="text" name="cidade" value={formData.cidade} onChange={handleChange} />
                 </label>
               </div>
+              <br/>
               <div className='form-container'>
                 <label>
                   Estado:
+                  <br/>
                   <input type="text" name="estado" value={formData.estado} onChange={handleChange} />
                 </label>
               </div>
+              <br/>
             </div>
           )}
           <div className='form-container'>
             <label>
               E-mail:
+              <br/>
               <input type="email" name="email" value={formData.email} onChange={handleChange} required />
             </label>
           </div>
+          <br/>
           <div className='form-container'>
             <label>
               Telefone com DDD:
+              <br/>
               <input type="text" name="telefone" value={formData.telefone} onChange={handleChange} required />
             </label>
           </div>
+          <br/>
           <div className='form-container'>
             <label>
               WhatsApp com DDD:
+              <br/>
               <input type="text" name="whatsapp" value={formData.whatsapp} onChange={handleChange} required />
             </label>
             <br/>
             <label>
+            <br/>
               Tipo de Atendimento:
+              <br/>
               <select name="tipoAtendimento" value={formData.tipoAtendimento} onChange={handleChange} required>
                 <option value="">Selecione...</option>
                 <option value="Agendar">Agendar Atendimento</option>
                 <option value="Domicílio">Atendimento a Domicílio</option>
               </select>
             </label>
+            <br/>
           </div>
+          <br/>
           <button type="submit">Enviar Dados por Email</button>
         </form>
         {errorMessage && <p className="errorMessage">{errorMessage}</p>}

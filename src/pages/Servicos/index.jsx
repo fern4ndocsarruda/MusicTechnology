@@ -14,7 +14,10 @@ function Servicos() {
 
     return (
         <>
-        <h2>Serviços</h2>
+        <div className={styles.titulo}>
+            <h2>Serviços</h2>
+        </div>
+        
             <section className={styles.servicos}>
                 
                 {services.map((service, index) => (
@@ -25,6 +28,7 @@ function Servicos() {
                     />
                 ))}
             </section>
+            
         </>
     );
 }

@@ -13,12 +13,16 @@
     padding: 20px 40px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-.atendimento-form h1 {
+.atendimento-form > h1 {
     color: #202124;
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: center;
+   
+    align-items: center;
 }
 
 .atendimento-form p {
@@ -58,7 +62,7 @@
 .form-container input[type="text"]:focus,
 .form-container input[type="email"]:focus,
 .form-container select:focus {
-    border-color: var(--primary);
+    border-color: var(--black);
     outline: none;
 }
 
@@ -119,3 +123,4 @@ p.successMessage {
     margin: 5px 0;
     font-size: 14px;
 }
+

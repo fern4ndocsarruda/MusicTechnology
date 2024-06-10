@@ -17,10 +17,11 @@
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: green;
 }
 .home span{
 
-    color: var(--red);
+    color: green;
 }
 .btn{
 
@@ -38,8 +39,8 @@
 }
 .btn_red{
 
-    background-color: var(--red);
-    color: var(--white);
+    background-color: yellow;
+    color: green;
 }
 
 .btn_red:hover{

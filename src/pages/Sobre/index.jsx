@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './Sobre.module.css'
 import gibson from './imagens/gibson.png'
 import fender from './imagens/fender.png'
@@ -19,19 +20,32 @@ function Sobre() {
           
             
                 <h2>Sobre</h2>
-                <p>A
+                <p>
                     <span> Music Technology </span>
                     <strong>Música e Tecnologia</strong>
                 </p>
                 <p>
-                    É uma empresa com focada no atendimento das necessidades de guitarristas e violonistas, especializada em guitarras, violões, amplificadores e efeitos em geral.
+                Empresa com focada no atendimento das necessidades de guitarristas e violonistas, especializada em guitarras, violões, amplificadores e efeitos em geral. Apaixonados por timbres e possibilidades diferentes para resolver problemas comuns. Somos grande entusiastas de soluções tecnológicas para problemas do dia a dia que afetam os músicos. Estamos prontos para solucionar problemas e criar soluções úteis de forma dinâmica e acertiva.
                 </p>
-                <p>
-                    Somos grande entusiastas de soluções tecnológicas para problemas do dia a dia dos músicos, apaixonado por timbres e possibilidades diferentes para resolver problemas comuns.
-                </p>
-                <p>
-                    Estamos prontos para solucionar problemas e criar soluções úteis de forma dinâmica e acertiva.
-                </p>
+                <p> Oferecemos os seguintes serviços:</p>
+                <p></p>
+                
+                <ul>
+                <li>Luteria</li>
+               
+                <li>Aulas de Música e Áudio</li>
+                <li>Montagem de Home Studio</li>
+                <li>Curso de pedais e efeitos</li>
+                <li>Montagem de setup de pedais e efeitos</li>
+                </ul>
+            <br/>
+            <br/>
+
+            <Link to="/servicos" className={`${styles.btn} ${styles.btn_red}`}>
+              Descrição de serviços
+            </Link>
+
+               
             
             </div>
             </div>

@@ -1,13 +1,7 @@
-.projetos {
-    padding: 20px;
-    background-color: white;
-}
+.titulo{
+    color: var(--primary);
 
-.projetos h2{
-    text-align: center;
-    
 }
-
 .servicos{
     width: 100%;
     display: flex;
@@ -16,4 +10,17 @@
     margin-block: 1rem;
     gap: 1.5rem;
     flex-wrap: wrap;
+}
+
+.icones{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.icones img{
+    height: 50px;
 }
