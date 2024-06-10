@@ -1,6 +1,6 @@
 <h1>Music Technology</h1>
 
-# 🎼 Website de empresa - Front-End
+# 🎼 Website da empresa - Front-End
 
 Neste projeto, abordaremos a criação de um website de apresentação, comunicação e agendamento para uma empresa, utilizando tecnologias modernas e boas práticas de desenvolvimento.
 
