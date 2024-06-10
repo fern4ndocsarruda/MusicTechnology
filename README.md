@@ -43,6 +43,4 @@ O projeto foi desenvolvido pelo seguinte aluno do SENAI:
 
 ```bash
 cd projeto-final
-
-```bash
 npm run dev
