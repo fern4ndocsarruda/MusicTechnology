@@ -4,8 +4,7 @@
     min-height: 85vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: justify;
 
 }
 .bio{
@@ -17,13 +16,13 @@
 }
 .bio span{
 
-    color: green;
+    color: #4F200D;
     font-weight: bold;
 }
 
 .bio strong{
 
-    color: (--secondary);
+    color: #4F200D;
     font-weight: bold;
 
 }
@@ -38,9 +37,9 @@
     min-height: 85vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    color: var(--primary);
+    color: #FF8400;
+    margin-left: 3rem;
 
 }
 
@@ -80,11 +79,11 @@
 
 .btn_red{
 
-    background-color: yellow;
-    color: green;
+    background-color: #4F200D;
+    color: #FF8400;
 }
 
 .btn_red:hover{
 
-background-color: var(--primary);
+background-color: #FFD93D;
 }
