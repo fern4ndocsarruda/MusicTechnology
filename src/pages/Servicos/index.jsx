@@ -12,7 +12,7 @@ function Servicos() {
         { title: "Montagem de Home Studio", description: "Montamos seu Home Studio de acordo com as suas necessidades. Começamos na concepção focada na proposta do trabalho e vamos até a finalização do projeto de acordo com as especificações e possibilidades do cliente." },       
         { title: "Curso de pedais e efeitos", description: "Nosso curso possibilita ao aluno independência a partir do conhecimento que será adquirido. Ensinamos desde os fundamentos do áudio, passando pela concepção de cada efeito e o uso de diversos equipamentos na prática." },
         { title: "Aulas de Música", description: "Oferecemos aulas de música para todos os níveis e idades utilizando método personalizado de acordo com o nível de conhecimento, habilidade e necessidade de cada aluno." },
-        { title: "Consultoria", description: "Oferecemos consultoria para que a aquisição de equipamentos de terceiros seja acertiva e atenda às necessidades do cliente." },
+        { title: "Consultoria de Boas Compras", description: "Oferecemos consultoria para que a aquisição de equipamentos de terceiros seja acertiva e atenda às necessidades do cliente." },
        
         
                 
