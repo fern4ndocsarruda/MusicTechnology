@@ -1,5 +1,5 @@
 .titulo{
-    color: var(--primary);
+    color: #FF8400;
 
 }
 .servicos{
@@ -10,4 +10,5 @@
     margin-block: 1rem;
     gap: 1.5rem;
     flex-wrap: wrap;
+    color: #4F200D
 }

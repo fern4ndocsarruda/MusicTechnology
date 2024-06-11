@@ -1,14 +1,29 @@
-.footer{
-
+.header{
     width: 100%;
     height: 50px;
-    background-color: yellow;
-    color: green;
-    font-weight: bold;
-    font-size: 1.25rem;
-    
+    background-color: #FF8400;
+    color: #4F200D;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    font-weight: bold;
+    
+    }
+    
+    .header span {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: #4F200D;
+        padding-right: 1.5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    
+    .header a:hover {
+        color: #FFD93D;
     
     }

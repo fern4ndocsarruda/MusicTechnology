@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Montserrat', monospace;
+  font-family: 'Roboto', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -10,7 +10,7 @@
   --terceary: #533483;
   --red: #E94560;
   --soft-white: #f1f1f1;
-  --white: #fefefe;
+  --white: #fefefe; 
   --black: #111;
   --gray: #222222;
 }

@@ -1,73 +1,38 @@
-import { Link } from 'react-router-dom'
-import styles from './Sobre.module.css'
-import gibson from './imagens/gibson.png'
-import fender from './imagens/fender.png'
-import marshall from './imagens/marshall.jpg'
-import vox from './imagens/vox.png'
-import wampler from './imagens/wampler.gif'
-import strymon from './imagens/strymon.gif'
-import martin from './imagens/martin.png'
-import avatar from './imagens/avatar.jfif'
-
+import { Link } from 'react-router-dom';
+import styles from './Sobre.module.css';
 
 function Sobre() {
     return (
         <>
-        <section className={styles.sobre}>
-        <div className={styles.bio}>
-            <img src={avatar} className={styles.avatar}/>
-        <div className={styles.texto}>
-          
-            
-                <h2>Sobre</h2>
-                <p>
-                    <span> Music Technology </span>
-                    <strong>Música e Tecnologia</strong>
-                </p>
-                <p>
-                Empresa com focada no atendimento das necessidades de guitarristas e violonistas, especializada em guitarras, violões, amplificadores e efeitos em geral. Apaixonados por timbres e possibilidades diferentes para resolver problemas comuns. Somos grande entusiastas de soluções tecnológicas para problemas do dia a dia que afetam os músicos. Estamos prontos para solucionar problemas e criar soluções úteis de forma dinâmica e acertiva.
-                </p>
-                <p> Oferecemos os seguintes serviços:</p>
-                <p></p>
-                
-                <ul>
-                <li>Luteria</li>                
-                <li>Aulas de Música</li>
-                <li>Montagem de Home Studio</li>
-                <li>Curso de pedais e efeitos</li>
-                <li>Consultoria de Boas Compras</li>
-                <li>Venda e Troca de Instrumentos</li>
-                <li>Compra de Instrumentos Usados</li>                
-                <li>Montagem de setup de pedais e efeitos</li>
-                </ul>
-            <br/>
-            <br/>
-
-            <Link to="/servicos" className={`${styles.btn} ${styles.btn_red}`}>
-              Descrição de serviços
-            </Link>
-
-               
-            
-            </div>
-            </div>
-            <div className={styles.techs}>
-                
-            </div>
-            <div className={styles.icones}>
-                <img src={gibson} alt = 'logo da Gibson'/>
-                <img src={fender} alt = 'logo da Fender'/>
-                <img src={marshall} alt = 'logo da Marshall'/>
-                <img src={vox} alt = 'logo da Vox'/>
-                <img src={wampler} alt = 'logo da Wampler'/>
-                <img src={strymon} alt = 'Logo da Strymon'/>
-                <img src={martin} alt = 'Logo da Martin'/>
-            
-            </div>
-
-            
+            <section className={styles.sobre}>
+                <div className={styles.bio}>
+                    <div className={styles.texto}>
+                        <h2>Sobre</h2>
+                        <p>
+                            <span>Music Technology</span>
+                        </p>
+                            <p><b>Empresa focada no atendimento das necessidades de guitarristas e violonistas.</b></p>
+                            <p><b>Somos especializados em guitarras, violões, amplificadores e efeitos em geral.</b></p>
+                            <p><b>Apaixonados por timbres e soluções tecnológicas.</b></p>
+                        <p><b>Oferecemos os seguintes serviços:</b></p>
+                        <ul>
+                            <li><b>Luteria</b></li>
+                            <li><b>Aulas de Música</b></li>
+                            <li><b>Montagem de Home Studio</b></li>
+                            <li><b>Curso de pedais e efeitos</b></li>
+                            <li><b>Consultoria de Boas Compras</b></li>
+                            <li><b>Venda e Troca de Instrumentos</b></li>
+                            <li><b>Compra de Instrumentos Usados</b></li>
+                            <li><b>Montagem de setup de pedais e efeitos</b></li>
+                        </ul> <br/>
+                        <Link to="/servicos" className={`${styles.btn} ${styles.btn_red}`}>
+                            Descrição de serviços
+                        </Link>
+                    </div>
+                </div>
             </section>
         </>
-    )
+    );
 }
-export default Sobre
+
+export default Sobre;

@@ -7,6 +7,7 @@ function PageBase(){
     return(
         <main>
             <Header />
+            
             <Container>
                 <Outlet />
 

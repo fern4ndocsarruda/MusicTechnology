@@ -17,11 +17,12 @@
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: green;
+    color: #FFD93D;
+    align-items: left;
 }
 .home span{
 
-    color: green;
+    color: #FF8400;
 }
 .btn{
 
@@ -39,11 +40,16 @@
 }
 .btn_red{
 
-    background-color: yellow;
-    color: green;
+    background-color: #FF8400;
+    color: #FFD93D;
 }
 
 .btn_red:hover{
 
-background-color: var(--primary);
+background-color: #4F200D;
+}
+
+.apresentacao {
+    align-items: left;
+    justify-content: left;
 }

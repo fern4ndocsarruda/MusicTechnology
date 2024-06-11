@@ -135,7 +135,7 @@ function Contato() {
               <input type="text" name="nome" value={formData.nome} onChange={handleChange} required />
             </label>
           </div>
-          <br/>
+          
           <div className={styles['form-container']}>
             <label>
               Motivo do Contato:
@@ -143,7 +143,7 @@ function Contato() {
               <input type="text" name="motivo" value={formData.motivo} onChange={handleChange} required />
             </label>
           </div>
-          <br/>
+          
           <div className={styles['form-container']}>
             <label>
               CEP:
@@ -155,57 +155,45 @@ function Contato() {
           </div>
           <br/>
           <div className={styles['form-container']}>
+          <label>
+                  Logradouro:
+                  <br/>
+                  <input type="text" name="logradouro" value={formData.logradouro} onChange={handleChange} />
+                </label>
+                <br/>
             <label>
               Número:
               <br/>
               <input type="text" name="numero" value={formData.numero} onChange={handleChange} required />
             </label>
-          </div>
-          <br/>
-          <div className={styles['form-container']}>
+            <br/>
             <label>
               Complemento:
               <br/>
               <input type="text" name="complemento" value={formData.complemento} onChange={handleChange} />
             </label>
-          </div>
-          <br/>
-          {formData.logradouro && (
-            <div className={styles['form-row']}>
-              <div className={styles['form-container']}>
-                <label>
-                  Logradouro:
-                  <br/>
-                  <input type="text" name="logradouro" value={formData.logradouro} onChange={handleChange} />
-                </label>
-              </div>
-              <br/>
-              <div className={styles['form-container']}>
-                <label>
+            <br/>
+            <label>
                   Bairro:
                   <br/>
                   <input type="text" name="bairro" value={formData.bairro} onChange={handleChange} />
                 </label>
-              </div>
-              <br/>
-              <div className={styles['form-container']}>
+                <br/>
                 <label>
                   Cidade:
                   <br/>
                   <input type="text" name="cidade" value={formData.cidade} onChange={handleChange} />
                 </label>
-              </div>
-              <br/>
-              <div className={styles['form-container']}>
+                <br/>
                 <label>
                   Estado:
                   <br/>
                   <input type="text" name="estado" value={formData.estado} onChange={handleChange} />
                 </label>
-              </div>
-              <br/>
-            </div>
-          )}
+          </div>
+          
+          
+          
           <div className={styles['form-container']}>
             <label>
               E-mail:
@@ -213,7 +201,7 @@ function Contato() {
               <input type="email" name="email" value={formData.email} onChange={handleChange} required />
             </label>
           </div>
-          <br/>
+          
           <div className={styles['form-container']}>
             <label>
               Telefone com DDD:
@@ -221,14 +209,14 @@ function Contato() {
               <input type="text" name="telefone" value={formData.telefone} onChange={handleChange} required />
             </label>
           </div>
-          <br/>
+          
           <div className={styles['form-container']}>
             <label>
               WhatsApp com DDD:
               <br/>
               <input type="text" name="whatsapp" value={formData.whatsapp} onChange={handleChange} required />
             </label>
-            <br/>
+            
             <label>
             <br/>
               Tipo de Atendimento:
@@ -239,9 +227,9 @@ function Contato() {
                 <option value="Domicílio">Atendimento a Domicílio</option>
               </select>
             </label>
-            <br/>
+            
           </div>
-          <br/>
+          
           <button type="submit">Enviar Dados por Email</button>
         </form>
         {errorMessage && <p className={styles['errorMessage']}>{errorMessage}</p>}

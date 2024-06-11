@@ -17,9 +17,7 @@ function Home() {
               Conheça-nos melhor
             </Link>
           </div>
-          <figure>
-            <img className={styles.img_home}  src="/home.png" alt="Imagem de Home" />
-          </figure>
+          
         </section>
       </Container>
 
