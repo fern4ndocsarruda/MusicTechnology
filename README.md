@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Music Technology</h1>
 
 # 🎼 Website da empresa - Front-End
@@ -44,3 +45,7 @@ O projeto foi desenvolvido pelo seguinte aluno do SENAI:
 ```bash
 cd projeto-final
 npm run dev
+=======
+# MusicTechnology
+Projeto final para conclusão do curso Programador Front End do SENAI Maracanã.
+>>>>>>> 4bfb36e047db5332a45e1e567dff1a8c3c011454
