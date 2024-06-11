@@ -1,0 +1,13 @@
+.titulo{
+    color: var(--primary);
+
+}
+.servicos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
