@@ -31,11 +31,13 @@ function Sobre() {
                 <p></p>
                 
                 <ul>
-                <li>Luteria</li>
-               
-                <li>Aulas de Música e Áudio</li>
+                <li>Luteria</li>                
+                <li>Aulas de Música</li>
                 <li>Montagem de Home Studio</li>
                 <li>Curso de pedais e efeitos</li>
+                <li>Consultoria de Boas Compras</li>
+                <li>Venda e Troca de Instrumentos</li>
+                <li>Compra de Instrumentos Usados</li>                
                 <li>Montagem de setup de pedais e efeitos</li>
                 </ul>
             <br/>
