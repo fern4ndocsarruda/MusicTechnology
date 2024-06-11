@@ -44,14 +44,6 @@
 
 }
 
-.techs{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
 .icones{
 
     width: 100%;

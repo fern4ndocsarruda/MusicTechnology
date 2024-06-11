@@ -1,7 +1,7 @@
 .main-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center; /* Alterado de flex-start para center */
     padding: 40px;
     background-color: #f1f3f4;
 }
@@ -17,12 +17,10 @@
 }
 
 .atendimento-form > h1 {
-    color: #202124;
+    color: var(--primary);
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-   
-    align-items: center;
 }
 
 .atendimento-form p {
@@ -54,9 +52,10 @@
     background-color: #ffffff;
     color: #202124;
     margin-top: 2px;
-    width: 100%; 
+    width: 100%;
     box-sizing: border-box;
     transition: border-color 0.2s;
+    font-family: 'Montserrat', monospace;
 }
 
 .form-container input[type="text"]:focus,
@@ -89,6 +88,7 @@ button[type="submit"] {
     margin-top: 10px;
     width: 100%;
     box-sizing: border-box;
+    font-family: 'Montserrat', monospace;
 }
 
 button[type="button"]:hover,
@@ -123,4 +123,3 @@ p.successMessage {
     margin: 5px 0;
     font-size: 14px;
 }
-

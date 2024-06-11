@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import emailjs from 'emailjs-com';
-import './Contato.module.css';
+import styles from './Contato.module.css';
 
 function Contato() {
   const [formData, setFormData] = useState({
@@ -119,8 +119,8 @@ function Contato() {
   };
 
   return (
-    <div className="main-container">
-      <div className="atendimento-form">
+    <div className={styles['main-container']}>
+      <div className={styles['atendimento-form']}>
         <h1>Contato</h1>
         <br/>
         <p>Conheça nosso estúdio ou receba nossa visita.</p>
@@ -128,7 +128,7 @@ function Contato() {
         <p>Preencha o formulário, retornaremos o contato em até 48h.</p>
         <br/>
         <form onSubmit={handleSubmit}>
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               Nome:
               <br/>
@@ -136,7 +136,7 @@ function Contato() {
             </label>
           </div>
           <br/>
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               Motivo do Contato:
               <br/>
@@ -144,7 +144,7 @@ function Contato() {
             </label>
           </div>
           <br/>
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               CEP:
               <br/>
@@ -154,7 +154,7 @@ function Contato() {
             <button type="button" onClick={handleConsultaCep}>Consultar CEP</button>
           </div>
           <br/>
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               Número:
               <br/>
@@ -162,7 +162,7 @@ function Contato() {
             </label>
           </div>
           <br/>
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               Complemento:
               <br/>
@@ -171,8 +171,8 @@ function Contato() {
           </div>
           <br/>
           {formData.logradouro && (
-            <div className='form-row'>
-              <div className='form-container'>
+            <div className={styles['form-row']}>
+              <div className={styles['form-container']}>
                 <label>
                   Logradouro:
                   <br/>
@@ -180,7 +180,7 @@ function Contato() {
                 </label>
               </div>
               <br/>
-              <div className='form-container'>
+              <div className={styles['form-container']}>
                 <label>
                   Bairro:
                   <br/>
@@ -188,7 +188,7 @@ function Contato() {
                 </label>
               </div>
               <br/>
-              <div className='form-container'>
+              <div className={styles['form-container']}>
                 <label>
                   Cidade:
                   <br/>
@@ -196,7 +196,7 @@ function Contato() {
                 </label>
               </div>
               <br/>
-              <div className='form-container'>
+              <div className={styles['form-container']}>
                 <label>
                   Estado:
                   <br/>
@@ -206,7 +206,7 @@ function Contato() {
               <br/>
             </div>
           )}
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               E-mail:
               <br/>
@@ -214,7 +214,7 @@ function Contato() {
             </label>
           </div>
           <br/>
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               Telefone com DDD:
               <br/>
@@ -222,7 +222,7 @@ function Contato() {
             </label>
           </div>
           <br/>
-          <div className='form-container'>
+          <div className={styles['form-container']}>
             <label>
               WhatsApp com DDD:
               <br/>
@@ -244,8 +244,8 @@ function Contato() {
           <br/>
           <button type="submit">Enviar Dados por Email</button>
         </form>
-        {errorMessage && <p className="errorMessage">{errorMessage}</p>}
-        {isEmailSent && <p className="successMessage">Email enviado com sucesso!</p>}
+        {errorMessage && <p className={styles['errorMessage']}>{errorMessage}</p>}
+        {isEmailSent && <p className={styles['successMessage']}>Email enviado com sucesso!</p>}
       </div>
     </div>
   );
