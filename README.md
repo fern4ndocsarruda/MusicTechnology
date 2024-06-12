@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1>Music Technology</h1>
 
 # 🎼 Website da empresa - Front-End
@@ -23,6 +22,7 @@ O projeto foi desenvolvido pelo seguinte aluno do SENAI:
 
 ## 🎻 Tecnologias Utilizadas
 
+- Node.js: é uma ferramento que fornece a capacidade de intepretar cógigo Javascript.
 - Vite: é uma ferramenta de construção de projetos de frontend que se destina a oferecer uma experiência de desenvolvimento mais rápida e leve para projetos de web modernos.
 - React.js: é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.
 - EmailJS: O EmailJS é uma ferramenta que permite enviar e-mails diretamente do seu código JavaScript no lado do cliente, sem a necessidade de um servidor de back-end.
@@ -45,7 +45,3 @@ O projeto foi desenvolvido pelo seguinte aluno do SENAI:
 ```bash
 cd projeto-final
 npm run dev
-=======
-# MusicTechnology
-Projeto final para conclusão do curso Programador Front End do SENAI Maracanã.
->>>>>>> 4bfb36e047db5332a45e1e567dff1a8c3c011454
