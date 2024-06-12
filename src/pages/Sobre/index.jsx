@@ -9,7 +9,7 @@ function Sobre() {
                     <div className={styles.texto}>
                         <h2>Sobre</h2>
                         <p>
-                            <span>Music Technology</span>
+                            <span><h2>Music Technology</h2></span>
                         </p>
                             <p><b>Empresa focada no atendimento das necessidades de guitarristas e violonistas.</b></p>
                             <p><b>Somos especializados em guitarras, violões, amplificadores e efeitos em geral.</b></p>
