@@ -1,5 +1,6 @@
 .titulo2 {
     padding-top: 2rem;
+    color: #FFD93D;
 }
 
 .textos {
@@ -7,14 +8,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #FFD93D;
 }
 
 .texto_grande, .texto_vermelho {
     font-size: 300px;
-    color: var(--red);
+    color: #FFD93D;
     font-weight: bold;
 }
 
 .texto_vermelho {
     font-size: 1.5rem;
+    color: #FFD93D;
 }
